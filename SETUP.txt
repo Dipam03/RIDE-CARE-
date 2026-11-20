@@ -1,9 +1,0 @@
-RIDE CARE by crodyto — Firebase setup
-1. Firebase Console > Authentication > Sign-in method: enable Email/Password (and Google if desired).
-2. Authentication > Settings > Authorized domains: add your HTTPS hosting domain.
-3. Firestore Database > Create database (if not created).
-4. Firestore > Rules: publish the contents of firestore.rules.
-5. Deploy index.html on Firebase Hosting or another HTTPS host. Avoid opening file:// locally.
-6. Create an account in the app. New accounts start empty. Old browser records can be imported via Garage > Import this device's old data.
-7. Firebase configuration values are public client identifiers, not secrets. Do not put admin credentials in frontend code.
-Note: TVS Bluetooth automatic odometer sync still depends on proprietary model-specific support; GPS is separate.
